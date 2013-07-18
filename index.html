@@ -1,0 +1,39 @@
+<html lang="da"> 
+    <head>
+        <link rel="stylesheet" href="libs/normalize.css" />
+        <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css " />
+        <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-responsive.css" />        
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="libs/html5shiv.js"></script>
+    <![endif]-->
+    
+    <!-- TODO: Favicon, robots, humans... -->
+    <body>    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Meget enkelt tekst redaktør</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Overskrift her</h1>
+      <p>Beskrivelse af et enkelt form. Det bruger garlic.js at gemme data i local storage og google spellcheck at tjekke min dansk.</p>
+        <form data-persist="garlic" method="POST">
+            <textarea lang="da" class="area" spellcheck="true" placeholder="Skrive her!"></textarea> 
+        </form>
+
+    </div> <!-- /container -->    
+        <script src="libs/jquery-1.10.1.min.js"></script>            
+        <script src="libs/modernizr-2.6.2.min.js"></script>
+        <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="libs/garlic.min.js"></script>            
+    </body> 
+</html>
+
+
